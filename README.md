@@ -43,7 +43,7 @@ If anyone would want to build any further on this idea, they could for instance:
 - Scaling 
 - OG tags
 - Lighthouse optimizations
-- Add tests
+- Improve test coverage
 - CI (apart from GitHub Pages)
 - Add more fonts, with a smarter loading strategy
 - Normalize glyph sizes to get a more coherent-looking <b>Topfont</b>
