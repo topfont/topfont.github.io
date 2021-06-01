@@ -13,7 +13,7 @@
 <br>
 
 <p align=center><p width=200>
-Topfont  is a community-sourced project to find the best combination font, the **Topfont**. It works by pitting glyphs from various fonts against eachother 1-on-1, and synthesises a whole new font that uses the most popular letter glyph across all fonts for each letter.
+  Topfont  is a community-sourced project to find the best combination font, the <b>Topfont</b>. It works by pitting glyphs from various fonts against eachother 1-on-1, and synthesises a whole new font that uses the most popular letter glyph across all fonts for each letter.
 
 </p></p>
 
@@ -32,7 +32,10 @@ The project is split into a simple Create React App frontend and a very basic ts
 
 **Future work**
 
-If anyone would want to build any further on this idea, they could:
+If anyone would want to build any further on this idea, they could for instance:
 
 - Add a persistence layer, e.g. postgres, to store votes.
 - Add tests
+- Add more fonts, with a smarter loading strategy
+- Actually package the <b>Topfont</b> as a downloadable, installable font after voting has stabilized
+- ++
