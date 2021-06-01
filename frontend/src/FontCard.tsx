@@ -7,6 +7,7 @@ export const FontCard: React.FC<{
     <button
       onClick={props.onClick}
       style={{
+        userSelect: "none",
         cursor: "pointer",
         width: 128,
         height: 128,
