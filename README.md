@@ -29,13 +29,23 @@ Topfont is a quickie project thrown together in a single evening to test a zany 
 **Project structure**
 
 The project is split into a simple Create React App frontend and a very basic ts express backend API to store glyph/font name votes.
+The frontend is currently hosted with GitHub Pages (using the `docs` folder trick).
+The backend is currently hosted on a cloud VM.
 
 **Future work**
 
 If anyone would want to build any further on this idea, they could for instance:
 
-- Add a persistence layer, e.g. postgres, to store votes.
+- Add a persistence layer, e.g. postgres, to store votes
+- API hardening to detect spam/vote fraud, etc
+- API documentation
+- Monitoring
+- Scaling 
+- OG tags
+- Lighthouse optimizations
 - Add tests
+- CI (apart from GitHub Pages)
 - Add more fonts, with a smarter loading strategy
+- Normalize glyph sizes to get a more coherent-looking <b>Topfont</b>
 - Actually package the <b>Topfont</b> as a downloadable, installable font after voting has stabilized
 - ++
