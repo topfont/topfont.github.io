@@ -217,7 +217,7 @@ function App() {
             }}
           >
             {votes === "loading" ? (
-              "Loading"
+              ""
             ) : (
               <div>
                 <p>
