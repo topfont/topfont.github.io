@@ -48,4 +48,5 @@ If anyone would want to build any further on this idea, they could for instance:
 - Add more fonts, with a smarter loading strategy
 - Normalize glyph sizes to get a more coherent-looking <b>Topfont</b>
 - Actually package the <b>Topfont</b> as a downloadable, installable font after voting has stabilized
+- Use ELO-ranking more better/more fun scoring of glyphs
 - ++
