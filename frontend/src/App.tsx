@@ -20,6 +20,7 @@ const FontCard: React.FC<{
     <button
       onClick={props.onClick}
       style={{
+        cursor: "pointer",
         width: 128,
         height: 128,
         display: "flex",
@@ -158,11 +159,15 @@ function App() {
           maxWidth: 450,
         }}
       >
-        <p style={{ marginBottom: 32 }}>
-          Topfont is a community-sourced project to find the best combination
-          font, the <b>Topfont</b>. It works by pitting glyphs from various
-          fonts against eachother 1-on-1, and synthesises a whole new font that
-          uses the most popular letter glyph across all fonts for each letter.
+        <p style={{ marginBottom: 32, lineHeight: 1.5 }}>
+          <a href="https://github.com/topfont/topfont.github.io">
+            {" "}
+            Topfont (GitHub)
+          </a>{" "}
+          is a community-sourced project to find the best combination font, the{" "}
+          <b>Topfont</b>. It works by pitting glyphs from various fonts against
+          eachother 1-on-1, and synthesises a whole new font that uses the most
+          popular letter glyph across all fonts for each letter.
         </p>
 
         <p>
