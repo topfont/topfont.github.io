@@ -49,4 +49,6 @@ If anyone would want to build any further on this idea, they could for instance:
 - Normalize glyph sizes to get a more coherent-looking <b>Topfont</b>
 - Actually package the <b>Topfont</b> as a downloadable, installable font after voting has stabilized
 - Use ELO-ranking more better/more fun scoring of glyphs
+- Add some frontend routing and use history/backbutton
+- Host frontend somewhere more suited for SPA than GitHub pages
 - ++
