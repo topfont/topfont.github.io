@@ -30,7 +30,7 @@ Topfont is a quickie project thrown together in a single evening to test a zany 
 
 The project is split into a simple Create React App frontend and a very basic ts express backend API to store glyph/font name votes.
 The frontend is currently hosted with GitHub Pages (using the `docs` folder trick).
-The backend is currently hosted on a cloud VM.
+The backend is currently hosted on behind nginx on a cloud VM, using letsencrypt for HTTPS.
 
 **Future work**
 
