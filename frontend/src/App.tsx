@@ -1,45 +1,7 @@
 import React, { useState } from "react";
+import { FontCard } from "./FontCard";
+import { Topfont } from "./Topfont";
 import "./App.css";
-
-const Topfont: React.FC<{ text: string; topfont: any }> = (props) => (
-  <>
-    {props.text.split("").map((x, i) => (
-      <span key={i} style={{ fontFamily: props.topfont[x] }}>
-        {x}
-      </span>
-    ))}
-  </>
-);
-
-const FontCard: React.FC<{
-  letter: string;
-  font: string;
-  onClick: () => void;
-}> = (props) => {
-  return (
-    <button
-      onClick={props.onClick}
-      style={{
-        cursor: "pointer",
-        width: 128,
-        height: 128,
-        display: "flex",
-        alignItems: "center",
-        justifyContent: "center",
-        fontSize: 64,
-        borderRadius: 8,
-        background: "white",
-        boxShadow: "0px 2px 4px rgba(0, 0, 0, 0.06)",
-        margin: 8,
-        border: 0,
-        color: "#502824",
-        fontFamily: props.font,
-      }}
-    >
-      {props.letter}
-    </button>
-  );
-};
 
 const alphabet = "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ";
 function getRandomLetter() {

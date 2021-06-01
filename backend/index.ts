@@ -1,7 +1,7 @@
 import express from "express";
 import cors from "cors";
 import { addVote, db } from "./db";
-import { appendError, alphabet } from "./validation";
+import { appendError, alphabet, fonts } from "./validation";
 
 /* express setup */
 const app = express();
@@ -31,8 +31,8 @@ app.post("/vote/", async (request, response) => {
       "This letter is invalid. Letter must be in [a-zA-Z]."
     );
   }
-  if (typeof data.font !== "string") {
-    appendError(errors, "font", "This field must be a string value.");
+  if (!fonts.has(data.font)) {
+    appendError(errors, "font", "This field must be a valid font name.");
   }
   if (Object.keys(errors).length > 0) {
     return response.status(400).send(errors);
