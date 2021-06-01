@@ -141,7 +141,7 @@ function App() {
                 setShowTopfont(true);
                 setVotes("loading");
                 try {
-                  const response = await fetch(process.env.API_BASE_URL);
+                  const response = await fetch("" + process.env.API_BASE_URL);
                   const votes = await response.json();
                   setVotes(votes);
                 } catch {
