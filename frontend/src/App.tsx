@@ -143,8 +143,10 @@ function App() {
           padding: 16,
         }}
       >
-        <span style={{ fontWeight: "bold" }}>topfont</span>
-        <span style={{ opacity: 0.5 }}>.github.io</span>
+        <a href="/" style={{ color: "white", textDecoration: "none" }}>
+          <span style={{ fontWeight: "bold" }}>topfont</span>
+          <span style={{ opacity: 0.5 }}>.github.io</span>
+        </a>
       </div>
       <div
         style={{
@@ -152,13 +154,15 @@ function App() {
           paddingRight: 32,
           paddingTop: 16,
           paddingBottom: 16,
+          margin: "0 auto",
+          maxWidth: 450,
         }}
       >
         <p style={{ marginBottom: 32 }}>
           Topfont is a community-sourced project to find the best combination
-          font, the <b>Topfont</b>. It works pitting glyphs from various fonts
-          against eachother 1-on-1, and synthesises a whole new font that uses
-          the most popular glyphs from all fonts for each letter.
+          font, the <b>Topfont</b>. It works by pitting glyphs from various
+          fonts against eachother 1-on-1, and synthesises a whole new font that
+          uses the most popular letter glyph across all fonts for each letter.
         </p>
 
         <p>
