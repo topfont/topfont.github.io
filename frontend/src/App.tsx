@@ -64,7 +64,7 @@ function App() {
       return value;
     });
     try {
-      await fetch("https://topfont.arkt.is/vote/", {
+      await fetch(`${process.env.API_BASE_URL}vote/`, {
         method: "POST",
         headers: {
           "Content-Type": "application/json",
@@ -141,7 +141,7 @@ function App() {
                 setShowTopfont(true);
                 setVotes("loading");
                 try {
-                  const response = await fetch("https://topfont.arkt.is/");
+                  const response = await fetch(process.env.API_BASE_URL);
                   const votes = await response.json();
                   setVotes(votes);
                 } catch {
