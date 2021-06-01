@@ -84,7 +84,7 @@ function App() {
       return value;
     });
     try {
-      await fetch("http://localhost:5000/vote/", {
+      await fetch("https://topfont.arkt.is/vote/", {
         method: "POST",
         headers: {
           "Content-Type": "application/json",
@@ -153,7 +153,7 @@ function App() {
                 setShowTopfont(true);
                 setVotes("loading");
                 try {
-                  const response = await fetch("http://localhost:5000/");
+                  const response = await fetch("https://topfont.arkt.is/");
                   const votes = await response.json();
                   setVotes(votes);
                 } catch {
