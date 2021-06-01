@@ -56,6 +56,23 @@ const fonts: string[] = [
   "Garamond",
   "Courier New",
   "Brush Script MT",
+  "Abril Fatface",
+  "Alfa Slab One",
+  "Balsamiq Sans",
+  "Bebas Neue",
+  "Cabin Sketch",
+  "Comfortaa",
+  "Concert One",
+  "Fredericka the Great",
+  "Frijole",
+  "Graduate",
+  "Lobster",
+  "Monoton",
+  "Press Start 2P",
+  "Righteous",
+  "Roboto",
+  "Staatliches",
+  "UnifrakturMaguntia",
 ];
 function getRandomFontPair() {
   const a = (Math.random() * fonts.length) | 0;
