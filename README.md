@@ -34,19 +34,19 @@ The backend is currently hosted on behind nginx on a cloud VM, using letsencrypt
 
 **Future work**
 
-If anyone would want to build any further on this idea, they could for instance:
+If anyone would want to build any further on this idea, they could for instance do:
 
 - Add a persistence layer, e.g. postgres, to store votes
 - API hardening to detect spam/vote fraud, etc
-- API documentation
+- Improved API documentation
 - Monitoring
 - Scaling 
-- OG tags
-- Lighthouse optimizations
+- Improved OG tags
 - Improve test coverage
 - CI (apart from GitHub Pages)
 - Add more fonts, with a smarter loading strategy
 - Normalize glyph sizes to get a more coherent-looking <b>Topfont</b>
+- Add multiple font variants ("which one looks more bold?", "which one looks funnier?" "which one looks faster?" etc)
 - Actually package the <b>Topfont</b> as a downloadable, installable font after voting has stabilized
 - Use ELO-ranking more better/more fun scoring of glyphs
 - Add some frontend routing and use history/backbutton
